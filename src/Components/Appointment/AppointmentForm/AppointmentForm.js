@@ -56,7 +56,7 @@ const AppointmentForm = ({ modalIsOpen, closeModal, appointmentOn, date }) => {
 
         <form style={{ width: '400px', padding: '20px' }} className="text-center" onSubmit={handleSubmit(onSubmit)}>
 
-          <select ref={register({ required: true })} class="form-select" aria-label="Default select example">
+          <select ref={register({ required: true })} class="form-select" name="gender" aria-label="Default select example">
             <option disabled={true} selected>Select Gender</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
